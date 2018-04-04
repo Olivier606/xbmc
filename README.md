@@ -5,7 +5,7 @@
 
 **Welcome to Kodi!**
 
-Kodi is an award-winning free and open source (GPL) software media player and
+Test Kodi is an award-winning free and open source (GPL) software media player and
 entertainment hub for digital media. Kodi is available for multiple platforms.
 Created in 2003 by a group of like minded programmers, Kodi is a non-profit
 project run and developed by volunteers located around the world.
