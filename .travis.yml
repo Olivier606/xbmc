@@ -18,6 +18,7 @@ sudo: required
 compiler:
   - gcc
   - clang
+script: make
 
 #env:
 #  - BUILD=Kodi TOOLS=CMake
