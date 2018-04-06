@@ -5,20 +5,29 @@
 # make it perfect... or not ;-r
 
 
-language: cpp
+#language: cpp
 
 # Define the build matrix
 #
 # Travis defaults to building on Ubuntu Precise when building on Linux. We need Trusty in order to get up
 # to date versions of cmake and g++.
 #
-os: linux
-dist: trusty
-sudo: required
+#os: linux
+#dist: trusty
+#sudo: required
+
+language: cpp
+
 compiler:
   - gcc
   - clang
-script: make -j4 && make check
+
+before_script:
+  - mkdir build
+  - cd build
+  - cmake ..
+
+script: make && make test
 
 #env:
 #  - BUILD=Kodi TOOLS=CMake
