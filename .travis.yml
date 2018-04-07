@@ -31,7 +31,7 @@ before_script:
   - cmake ..
  
 before_install:
- - sudo apt-get install -qq
+ #- sudo apt-get install -qq
  - export PATH=$(echo $PATH | tr ':' "\n" | sed '/\/opt\/python/d' | tr "\n" ":" | sed "s|::|:|g")
   
 install:
