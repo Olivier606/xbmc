@@ -28,8 +28,7 @@ before_script:
 #  - cmake -DENABLE_INTERNAL_CROSSGUID=ON
 #  - cmake -DENABLE_INTERNAL_FMT=ON
 #  - cmake -DENABLE_INTERNAL_RapidJSON=ON
-  - cmake ..
-  - cmake --build 
+  - cmake .. 
  
 before_install:
  #- sudo apt-get install -qq
