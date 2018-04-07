@@ -56,7 +56,7 @@ if(UNIX)
   option(FFMPEG_PATH        "Path to external ffmpeg?" "")
   option(ENABLE_INTERNAL_CROSSGUID "Enable internal crossguid?" ON)
   option(ENABLE_INTERNAL_RapidJSON "Enable internal rapidjson?" OFF)
-  option(ENABLE_INTERNAL_FMT "Enable internal fmt?" OFF)
+  option(ENABLE_INTERNAL_FMT "Enable internal fmt?" ON)
 endif()
 # System options
 if(NOT WIN32)
