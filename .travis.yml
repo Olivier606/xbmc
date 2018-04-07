@@ -46,7 +46,7 @@ install:
 #  nasm pmount python-dev python-imaging python-sqlite rapidjson-dev swig unzip uuid-dev yasm zip zlib1g-dev;
 
 before_script:
- - cmake -DENABLE_INTERNAL_CROSSGUID=ON -DENABLE_INTERNAL_FMT=ON -DENABLE_INTERNAL_RapidJSON=ON
+ cmake -DENABLE_INTERNAL_CROSSGUID=ON -DENABLE_INTERNAL_FMT=ON -DENABLE_INTERNAL_RapidJSON=ON
 
 script: make && make test
 
