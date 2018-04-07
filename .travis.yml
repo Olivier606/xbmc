@@ -29,6 +29,7 @@ before_script:
 #  - cmake -DENABLE_INTERNAL_FMT=ON
 #  - cmake -DENABLE_INTERNAL_RapidJSON=ON
   - cmake ..
+  - cmake --build 
  
 before_install:
  #- sudo apt-get install -qq
