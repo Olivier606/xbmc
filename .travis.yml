@@ -33,6 +33,7 @@ before_install:
   
 install:
  - sudo apt-get install -y liblzo2-dev
+ - sudo apt-get install -y libgif-dev
 #  sudo apt-get install -qq automake autopoint build-essential cmake curl default-jre gawk gdb gdc
 #  gettext git-core gperf libasound2-dev libass-dev libbz2-dev libcap-dev libcdio-dev libcec4-dev libcrossguid-dev libcurl3
 #  libcurl4-openssl-dev libdbus-1-dev libfmt3-dev libfontconfig-dev libegl1-mesa-dev libfreetype6-dev libfribidi-dev libgif-dev
