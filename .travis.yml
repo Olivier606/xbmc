@@ -110,7 +110,7 @@ install:
  - sudo apt-get install -y yasm
  - sudo apt-get install -y zip
  - sudo apt-get install -y zlib1g-dev
- - sudo apt-get install -y rapidjson-dev
+# - sudo apt-get install -y rapidjson-dev
 #  sudo apt-get install -qq 
 
 script: make && make test
