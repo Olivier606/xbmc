@@ -45,6 +45,9 @@ install:
 #  libxml2-dev libxmu-dev libxrandr-dev libxrender-dev libxslt1-dev libxt-dev libyajl-dev mesa-utils
 #  nasm pmount python-dev python-imaging python-sqlite rapidjson-dev swig unzip uuid-dev yasm zip zlib1g-dev;
 
+before_script:
+ - cmake -DENABLE_INTERNAL_CROSSGUID=ON -DENABLE_INTERNAL_FMT=ON -DENABLE_INTERNAL_RapidJSON=ON
+
 script: make && make test
 
 #env:
