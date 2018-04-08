@@ -113,7 +113,7 @@ install:
 # - sudo apt-get install -y rapidjson-dev
 #  sudo apt-get install -qq 
 
-script: make && make test
+script: ./configure && make && make test
 
 #env:
 #  - BUILD=Kodi TOOLS=CMake
