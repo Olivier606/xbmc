@@ -21,6 +21,7 @@
 
 #include <memory>
 #include <vector>
+#include <microhttpd.h>
 
 #include "network/httprequesthandler/IHTTPRequestHandler.h"
 #include "threads/CriticalSection.h"
