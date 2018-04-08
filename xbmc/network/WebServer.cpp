@@ -24,6 +24,7 @@
 #include <memory>
 #include <stdexcept>
 #include <utility>
+#include <microhttpd.h>
 
 #if defined(TARGET_POSIX)
 #include <pthread.h>
