@@ -24,6 +24,7 @@ compiler:
   - clang
 
 before_script:
+  - ulimit -c unlimited -S
   - mkdir build
   - cd build
 #  - cmake -DENABLE_INTERNAL_CROSSGUID=ON
