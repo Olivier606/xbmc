@@ -20,6 +20,11 @@
  */
 
  #define MHD_PLATFORM_H
+#ifdef __WIN32__
+# include <winsock2.h>
+#else
+# include <sys/socket.h>
+#endif
 
 #include <memory>
 #include <vector>
