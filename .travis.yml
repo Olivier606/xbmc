@@ -13,8 +13,9 @@
 # to date versions of cmake and g++.
 #
 #os: linux
-#dist: trusty
-#sudo: required
+sudo: required
+dist: trusty
+
 
 language: cpp
 
@@ -113,7 +114,7 @@ install:
 # - sudo apt-get install -y rapidjson-dev
 #  sudo apt-get install -qq 
 
-script: ./configure && make && make test
+script: make && make test
 
 #env:
 #  - BUILD=Kodi TOOLS=CMake
@@ -225,4 +226,4 @@ script: ./configure && make && make test
 # Disable annoying emails
 
 #notifications:
-#  email: false
+  email: false
