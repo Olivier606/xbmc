@@ -228,4 +228,4 @@ script: make && make test
 # Disable annoying emails
 
 #notifications:
-  email: false
+#  email: false
