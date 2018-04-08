@@ -19,6 +19,8 @@
  *
  */
 
+ #define MHD_PLATFORM_H
+
 #include <memory>
 #include <vector>
 #include <microhttpd.h>
